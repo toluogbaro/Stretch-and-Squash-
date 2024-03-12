@@ -1,6 +1,6 @@
 # Introduction
 
-This is a Unreal Engine template for 5.1 or greater.
+This is a Unreal Engine template for 5.1 or greater
 
 The template was made by **Rian Rutherford** _(rr262471)_. To make the template, I used the pervious UE4 template as a starting point.
 
