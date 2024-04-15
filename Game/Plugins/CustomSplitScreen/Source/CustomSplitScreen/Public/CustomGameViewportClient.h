@@ -11,7 +11,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(BlueprintType)
 class CUSTOMSPLITSCREEN_API UCustomGameViewportClient : public UGameViewportClient
 {
 	GENERATED_BODY()
