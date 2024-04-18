@@ -4,16 +4,16 @@
 // https://spyro-soft.com/developers/customising-unreal-engine-split-screen-with-a-simple-plugin
 
 FPerPlayerSplitscreenData Player1Data = FPerPlayerSplitscreenData(
-		0.5f,
 		1.00f,
+		0.5f,
 		0.0f,
 		0.00f);
 
 FPerPlayerSplitscreenData Player2Data = FPerPlayerSplitscreenData(
-		0.5f,
 		1.00f,
 		0.5f,
-		0.00f);
+		0.00f,
+		0.5f);
 
 
 UCustomGameViewportClient::UCustomGameViewportClient()
