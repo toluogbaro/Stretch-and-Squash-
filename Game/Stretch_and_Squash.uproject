@@ -27,7 +27,11 @@
 			"Enabled": true
 		},
 		{
-			"Name": "GPULightmass",
+			"Name": "FMODStudioNiagara",
+			"Enabled": true
+		},
+		{
+			"Name": "FMODStudio",
 			"Enabled": true
 		}
 	]
