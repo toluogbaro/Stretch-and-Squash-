@@ -16,16 +16,19 @@ void AWire::BeginPlay()
 {
 	Super::BeginPlay();
 
-
-	switch (ActionType)
+	if (IsValid(ActorToEffect))
 	{
+		switch (ActionType)
+		{
 
 		case EActionType::LIFTOFF:
 			OriginalActorLocation = ActorToEffect->GetActorLocation();
 			CurrentActorLocation = ActorToEffect->GetActorLocation();
 			CurrentActorOffset = ActorToEffect->GetActorLocation();
-		break;
+			break;
+		}
 	}
+	
 	
 }
 
@@ -66,12 +69,13 @@ void AWire::Tick(float DeltaTime)
 
 void AWire::ActivateAction(EActionType CurrentActionType)
 {
-
-	switch (ActionType)
+	if (IsValid(ActorToEffect))
 	{
+		switch (ActionType)
+		{
 		case EActionType::NONE:
 			bShouldActivateRotation = false;
-			
+
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Emerald, TEXT("Default"));
 			break;
 
@@ -82,47 +86,51 @@ void AWire::ActivateAction(EActionType CurrentActionType)
 		case EActionType::LIFTOFF:
 			bShouldLiftOff = true;
 			break;
+		}
 	}
+	
 
 }
 
 void AWire::DeactivateAction()
 {
-	switch (ActionType)
-
+	if (IsValid(ActorToEffect))
 	{
-	case EActionType::NONE:
-		break;
+		switch (ActionType)
 
-	case EActionType::CONSTANT_ROTATION:
-		bShouldActivateRotation = false;
-		break;
+		{
+		case EActionType::NONE:
+			break;
 
-	case EActionType::LIFTOFF:
-		bShouldLiftOff = false;
-		break;
+		case EActionType::CONSTANT_ROTATION:
+			bShouldActivateRotation = false;
+			break;
+
+		case EActionType::LIFTOFF:
+			bShouldLiftOff = false;
+			break;
+		}
 	}
+	
 }
 
 void AWire::ActivateRotation(float _DeltaTime)
 {
 	
-	if (IsValid(ActorToEffect))
-	{
+	
 
 		float Roll = RotationRate * _DeltaTime;
 
 		FRotator NewRotation = FRotator(Roll, 0, 0);
 
 		ActorToEffect->AddActorWorldRotation(NewRotation);
-	}
+	
 }
 
 void AWire::ActivateLiftOff(float _DeltaTime)
 {
 
-	if (IsValid(ActorToEffect))
-	{
+	
 		float LiftOffset = OriginalActorLocation.Z + LiftHeight;
 		TimeElapsedRevert = 0;
 		
@@ -142,15 +150,14 @@ void AWire::ActivateLiftOff(float _DeltaTime)
 			TimeElapsedLift += _DeltaTime * LiftSpeed;
 		}
 		
-	}
+	
 }
 
 void AWire::RevertLiftOff(float _DeltaTime)
 {
 	TimeElapsedLift = 0;
 
-	if (IsValid(ActorToEffect))
-	{
+	
 		if (TimeElapsedRevert < LiftDuration)
 		{
 
@@ -166,7 +173,7 @@ void AWire::RevertLiftOff(float _DeltaTime)
 			CurrentActorOffset = ActorToEffect->GetActorLocation();
 		}
 
-	}
+	
 	
 
 	
