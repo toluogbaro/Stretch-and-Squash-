@@ -14,6 +14,14 @@ enum class EActionType : uint8
 	LIFTOFF,
 };
 
+UENUM(BlueprintType)
+enum class RotationAxis : uint8
+{
+	X,
+	Y,
+	Z
+};
+
 UCLASS()
 class STRETCH_AND_SQUASH_API AWire : public AActor
 {
@@ -49,9 +57,16 @@ public:
 
 #pragma region Rotation
 
+
+	UPROPERTY(EditAnywhere, Category = "Wire", meta = (EditCondition = "ActionType == EActionType::CONSTANT_ROTATION", EditConditionHides))
+	RotationAxis _RotationAxis = RotationAxis::X;
+
 	//How Fast You Want The Actor To Rotate
 	UPROPERTY(EditAnywhere, Category = "Wire", meta = (EditCondition = "ActionType == EActionType::CONSTANT_ROTATION", EditConditionHides))
 	float RotationRate;
+
+	UPROPERTY()
+	FRotator NewRotation;
 
 	UPROPERTY()
 	bool bShouldActivateRotation;

@@ -116,12 +116,23 @@ void AWire::DeactivateAction()
 
 void AWire::ActivateRotation(float _DeltaTime)
 {
-	
-	
+		float RotationSpeed = RotationRate * _DeltaTime;
 
-		float Roll = RotationRate * _DeltaTime;
+		switch (_RotationAxis)
+		{
+			case RotationAxis::X:
+				NewRotation = FRotator(RotationSpeed, 0, 0);
+				break;
 
-		FRotator NewRotation = FRotator(Roll, 0, 0);
+			case RotationAxis::Y:
+				NewRotation = FRotator(0, RotationSpeed, 0);
+				break;
+
+			case RotationAxis::Z:
+				NewRotation = FRotator(0, 0, RotationSpeed);
+				break;
+
+		}
 
 		ActorToEffect->AddActorWorldRotation(NewRotation);
 	
