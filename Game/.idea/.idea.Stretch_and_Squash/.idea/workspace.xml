@@ -8,43 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3ffb15d-8c4e-4c0d-ae15-fbf6aff3f797" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-afmodambientsound.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-afmodambientsound.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-common.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-common.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ifmodstudiomodule.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ifmodstudiomodule.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodanimnotifyplay.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodanimnotifyplay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodasset.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodasset.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodaudiocomponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodaudiocomponent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodbank.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodbank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodblueprintstatics.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodblueprintstatics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodbus.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodbus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodevent.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodevent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodsettings.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodsettings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodsnapshot.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodsnapshot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodsnapshotreverb.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodsnapshotreverb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodvca.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference-ufmodvca.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/api-reference.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-asynchronous-loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-asynchronous-loading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-bus.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-bus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-common.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-common.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-enums.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-enums.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-eventinstance.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-eventinstance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-structs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-structs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-utilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference-utilities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/blueprint-reference.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/glossary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/glossary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/niagara.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/niagara.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/platform-specifics.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/platform-specifics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/plugins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/style/code_highlight.css" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/style/code_highlight.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/troubleshooting.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/troubleshooting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/user-guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/user-guide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/welcome-whats-new-200.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/welcome-whats-new-200.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/welcome-whats-new-201.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/welcome-whats-new-201.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/welcome-whats-new-202.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/welcome-whats-new-202.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/FMODStudio/Docs/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IA_Jump.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IA_Jump.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/Movement/IA_Horizontal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/Movement/IA_Horizontal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/Movement/IA_Vertical.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/Movement/IA_Vertical.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stretch_and_Squash.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Stretch_and_Squash.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,27 +32,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C++ Project.Stretch_and_Squash.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;FEATURE/Splitscreen&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C++ Project.Stretch_and_Squash.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "development",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\jdawe\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\jdawe\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\jdawe\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\jdawe\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\jdawe\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\jdawe\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Stretch_and_Squash" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -165,7 +132,9 @@
       <updated>1712577485699</updated>
       <workItem from="1712577487830" duration="1929000" />
       <workItem from="1713185089801" duration="307000" />
-      <workItem from="1713433016117" duration="684000" />
+      <workItem from="1713614399936" duration="2382000" />
+      <workItem from="1713778916930" duration="2357000" />
+      <workItem from="1714404261257" duration="56000" />
     </task>
     <servers />
   </component>
