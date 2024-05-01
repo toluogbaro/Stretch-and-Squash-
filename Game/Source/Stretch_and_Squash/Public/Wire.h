@@ -2,6 +2,7 @@
 
 #pragma once
 
+
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Wire.generated.h"
@@ -41,7 +42,7 @@ public:
 
 #pragma region Base Variables
 
-	UPROPERTY(EditAnywhere, Category = "Wire")
+	UPROPERTY(EditAnywhere, Category = "Wire", BlueprintReadOnly)
 	EActionType ActionType = EActionType::NONE;
 
 	UFUNCTION(BlueprintCallable, Category = "Wire")
@@ -50,7 +51,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Wire")
 	void DeactivateAction();
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	AActor* ActorToEffect;
 
 #pragma endregion
