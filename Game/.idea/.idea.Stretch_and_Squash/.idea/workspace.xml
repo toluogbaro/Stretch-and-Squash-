@@ -7,15 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ffb15d-8c4e-4c0d-ae15-fbf6aff3f797" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stretch_and_Squash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stretch_and_Squash/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/BPI_Widget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/BPI_Widget.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/BP_Interactable.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/BP_Interactable.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/BP_Squash_Interactable.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/BP_Squash_Interactable.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WDG_Marker.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/WDG_Marker.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/UI_Interactable_Test.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/UI_Interactable_Test.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Slime_Character_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Slime_Character_Base.uasset" afterDir="false" />
-    </list>
+    <list default="true" id="b3ffb15d-8c4e-4c0d-ae15-fbf6aff3f797" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +131,7 @@
       <workItem from="1713778916930" duration="2357000" />
       <workItem from="1714404261257" duration="56000" />
       <workItem from="1714474837298" duration="2102000" />
-      <workItem from="1715084918467" duration="3067000" />
+      <workItem from="1715084918467" duration="3668000" />
     </task>
     <servers />
   </component>
