@@ -42,7 +42,7 @@ public:
 
 #pragma region Base Variables
 
-	UPROPERTY(EditAnywhere, Category = "Wire", BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, Category = "Wire")
 	EActionType ActionType = EActionType::NONE;
 
 	UFUNCTION(BlueprintCallable, Category = "Wire")
@@ -51,7 +51,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Wire")
 	void DeactivateAction();
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere)
 	AActor* ActorToEffect;
 
 #pragma endregion
