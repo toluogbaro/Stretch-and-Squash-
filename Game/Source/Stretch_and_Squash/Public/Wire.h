@@ -54,6 +54,9 @@ public:
 	UPROPERTY(EditAnywhere)
 	AActor* ActorToEffect;
 
+	UPROPERTY(EditAnywhere)
+	AActor* SecondActorToEffect;
+
 #pragma endregion
 
 #pragma region Rotation
@@ -104,6 +107,14 @@ public:
 	float TimeElapsedLift = 0;
 
 	float TimeElapsedRevert = 0;
+
+	//Save Actor Location In Beginning
+	FVector SOriginalActorLocation;
+
+	//Get Current Location Only During Lift Off
+	FVector SCurrentActorLocation;
+
+	FVector SCurrentActorOffset;
 
 	bool bShouldLiftOff;
 

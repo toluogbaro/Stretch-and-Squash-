@@ -25,6 +25,14 @@ void AWire::BeginPlay()
 			OriginalActorLocation = ActorToEffect->GetActorLocation();
 			CurrentActorLocation = ActorToEffect->GetActorLocation();
 			CurrentActorOffset = ActorToEffect->GetActorLocation();
+
+			if (IsValid(SecondActorToEffect))
+			{
+				SOriginalActorLocation = SecondActorToEffect->GetActorLocation();
+				SCurrentActorLocation = SecondActorToEffect->GetActorLocation();
+				SCurrentActorOffset = SecondActorToEffect->GetActorLocation();
+			}
+			
 			break;
 		}
 	}
@@ -160,13 +168,36 @@ void AWire::ActivateLiftOff(float _DeltaTime)
 
 			TimeElapsedLift += _DeltaTime * LiftSpeed;
 		}
+
+		if (IsValid(SecondActorToEffect))
+		{
+
+			float SLiftOffset = SOriginalActorLocation.Z + LiftHeight;
+			TimeElapsedRevert = 0;
+
+			if (TimeElapsedLift < LiftDuration)
+			{
+				//float LocationChange = FMath::Lerp(OriginalActorLocation.Z, LiftOffset, TimeElapsed / LerpDuration);
+
+				float SLocationChange = FMath::InterpEaseInOut((float)SCurrentActorOffset.Z, SLiftOffset, TimeElapsedLift / LiftDuration, LiftBounciness);
+
+				float SX = SecondActorToEffect->GetActorLocation().X;
+				float SY = SecondActorToEffect->GetActorLocation().Y;
+
+				SecondActorToEffect->SetActorLocation(FVector(SX, SY, SLocationChange));
+
+				SCurrentActorLocation = SecondActorToEffect->GetActorLocation();
+
+			}
+		}
+
 		
 	
 }
 
 void AWire::RevertLiftOff(float _DeltaTime)
 {
-	TimeElapsedLift = 0;
+		TimeElapsedLift = 0;
 
 	
 		if (TimeElapsedRevert < LiftDuration)
@@ -182,6 +213,27 @@ void AWire::RevertLiftOff(float _DeltaTime)
 			TimeElapsedRevert += _DeltaTime * LiftSpeed;
 
 			CurrentActorOffset = ActorToEffect->GetActorLocation();
+		}
+
+		if (IsValid(SecondActorToEffect))
+		{
+
+			float SLiftOffset = SOriginalActorLocation.Z + LiftHeight;
+			TimeElapsedRevert = 0;
+
+			if (TimeElapsedRevert < LiftDuration)
+			{
+				//float LocationChange = FMath::Lerp(OriginalActorLocation.Z, LiftOffset, TimeElapsed / LerpDuration);
+
+				float SLocationChange = FMath::InterpEaseInOut((float)SCurrentActorOffset.Z,(float) SOriginalActorLocation.Z, TimeElapsedRevert / LiftDuration, LiftBounciness);
+
+				float SX = SecondActorToEffect->GetActorLocation().X;
+				float SY = SecondActorToEffect->GetActorLocation().Y;
+
+				SecondActorToEffect->SetActorLocation(FVector(SX, SY, SLocationChange));
+
+				SCurrentActorOffset = SecondActorToEffect->GetActorLocation();
+			}
 		}
 
 	
