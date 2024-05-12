@@ -10,7 +10,7 @@ URope_Swing::URope_Swing()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
+	
 }
 
 
@@ -18,8 +18,6 @@ URope_Swing::URope_Swing()
 void URope_Swing::BeginPlay()
 {
 	Super::BeginPlay();
-
-	// ...
 	
 }
 
@@ -29,6 +27,52 @@ void URope_Swing::TickComponent(float DeltaTime, ELevelTick TickType, FActorComp
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	
+}
+
+void URope_Swing::BroadcastRopeDelegate()
+{
+	OnRopeSwingStarted.Broadcast(true);
+
+	Stretch = GetOwner();
+
+	AnchorPoint = Get
+
+	if (IsValid(AnchorPoint) && IsValid(Stretch))
+	{
+		FVector DistBetweenStretchAndAnchor = AnchorPoint->GetActorLocation() - Stretch->GetActorLocation();
+
+		Distance = DistBetweenStretchAndAnchor.SquaredLength();
+	}
+}
+
+void URope_Swing::BroadCastEndRopeDelegate()
+{
+	OnRopeSwingStarted.Broadcast(false);
+}
+
+void URope_Swing::DetermineRopeSwing(float _DeltaTime)
+{
+
+	if (IsValid(AnchorPoint) && IsValid(Stretch))
+	{
+		FVector Connection = AnchorPoint->GetActorLocation() - Stretch->GetActorLocation();
+
+		float DifferenceLength = Distance - Connection.SquaredLength();
+
+		FVector NewAnchorPosition = AnchorPoint->GetActorLocation() + (DifferenceLength * Connection.Normalize());
+
+		AnchorPoint->SetActorLocation(NewAnchorPosition);
+
+		FVector VelocityTarget = Connection + (AnchorPoint->GetVelocity() + GetWorld()->GetGravityZ() * Spring);
+
+		FVector ProjectedVector = FVector::VectorPlaneProject(VelocityTarget, Connection);
+
+		FVector OutputVelocity = (VelocityTarget - ProjectedVector) / (1 + Damper * _DeltaTime);
+
+	}
+	
+
+
 }
 
