@@ -36,7 +36,7 @@ void URope_Swing::BroadcastRopeDelegate()
 
 	Stretch = GetOwner();
 
-	AnchorPoint = Get
+	//AnchorPoint = Get
 
 	if (IsValid(AnchorPoint) && IsValid(Stretch))
 	{
