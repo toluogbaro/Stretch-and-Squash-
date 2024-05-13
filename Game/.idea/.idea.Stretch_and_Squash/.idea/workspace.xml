@@ -9,21 +9,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b3ffb15d-8c4e-4c0d-ae15-fbf6aff3f797" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stretch_and_Squash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stretch_and_Squash/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Interactable/WDG_Stretch_Marker.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Interactable/WDG_Stretch_Marker.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/Controller_Controls_Remap_Squash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/Controller_Controls_Remap_Squash.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/Controller_Controls_Remap_Stretch.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/Controller_Controls_Remap_Stretch.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/UI_Interactable_Test.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/UI_Interactable_Test.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_AudioPlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_AudioPlayer.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Squash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Squash.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/Programming_Blockout_Test.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Programming_Blockout_Test.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Slime_Character_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Slime_Character_Base.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Stretch.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Stretch.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/Legacy/BP_GameInstance.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/Legacy/BP_SlimePlayerRework.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/Legacy/BP_SlimePlayerRework.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/Legacy/BP_SlimePlayerTwo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/Legacy/BP_SlimePlayerTwo.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Misc/BP_DebugPlayers.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Misc/BP_DebugPlayers.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IMC_Slime.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IMC_Squash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IMC_Squash.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IMC_Stretch.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IMC_Stretch.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Game-Modes/SlimeDemoGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Game-Modes/SlimeDemoGameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IMC_Stretch_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IMC_Stretch_Default.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,28 +36,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C++ Project.Stretch_and_Squash.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "FEATURE/UI/Interactables",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C++ Project.Stretch_and_Squash.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;FEATURE/UI/Interactables&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\jdawe\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\jdawe\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\jdawe\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\jdawe\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\jdawe\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\jdawe\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Stretch_and_Squash" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -152,6 +144,7 @@
       <workItem from="1715084918467" duration="3668000" />
       <workItem from="1715283197922" duration="1313000" />
       <workItem from="1715601522549" duration="2375000" />
+      <workItem from="1715619803771" duration="1386000" />
     </task>
     <servers />
   </component>
