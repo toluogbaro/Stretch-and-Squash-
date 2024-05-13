@@ -27,6 +27,9 @@ void URope_Swing::TickComponent(float DeltaTime, ELevelTick TickType, FActorComp
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	if (bCanDetermineDistance)
+		DetermineRopeSwing(DeltaTime);
+
 	
 }
 
@@ -62,7 +65,7 @@ void URope_Swing::DetermineRopeSwing(float _DeltaTime)
 
 		FVector NewAnchorPosition = AnchorPoint->GetActorLocation() + (DifferenceLength * Connection.Normalize());
 
-		AnchorPoint->SetActorLocation(NewAnchorPosition);
+		//AnchorPoint->AddActorWorldOffset(NewAnchorPosition);
 
 		FVector VelocityTarget = Connection + (AnchorPoint->GetVelocity() + GetWorld()->GetGravityZ() * Spring);
 
@@ -70,9 +73,17 @@ void URope_Swing::DetermineRopeSwing(float _DeltaTime)
 
 		FVector OutputVelocity = (VelocityTarget - ProjectedVector) / (1 + Damper * _DeltaTime);
 
+		SpringOutput = OutputVelocity;
+
 	}
 	
 
 
+}
+
+void URope_Swing::SetActors(AActor* Anchor, AActor* _Stretch)
+{
+	Stretch = _Stretch;
+	AnchorPoint = Anchor;
 }
 

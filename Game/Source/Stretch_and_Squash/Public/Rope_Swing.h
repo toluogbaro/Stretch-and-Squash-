@@ -39,7 +39,7 @@ public:
 	UPROPERTY(EditAnywhere)
 	float Damper = 5.0f;
 
-	UPROPERTY(BlueprintAssignable)
+	UPROPERTY(BlueprintCallable)
 	FRopeSwingHasStartedTDelegate OnRopeSwingStarted;
 
 	UFUNCTION(BlueprintCallable)
@@ -50,6 +50,12 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void DetermineRopeSwing(float _DeltaTime);
+
+	UFUNCTION(BlueprintCallable)
+	void SetActors(AActor* Anchor, AActor* _Stretch);
+
+	UPROPERTY(BlueprintReadOnly)
+	FVector SpringOutput;
 
 
 protected:
