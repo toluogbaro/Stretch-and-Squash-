@@ -9,33 +9,21 @@
   <component name="ChangeListManager">
     <list default="true" id="b3ffb15d-8c4e-4c0d-ae15-fbf6aff3f797" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stretch_and_Squash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stretch_and_Squash/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/BPI_Interactable.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/BPI_Widget.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/BP_Interactable.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/BP_Interactable.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/BP_Squash_Interactable.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/BP_Squash_Interactable.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/BP_Stretch_Interactable.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/BP_Stretch_Interactable.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Controller_Controls_Remap_Squash.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Controller_Controls_Remap_Stretch.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/FInteractableVars.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Gamepad_Controls_View_Squash.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Gamepad_Controls_View_Stretch.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/KeyMapList.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Keyboard_Controls_Squash.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Keyboard_Controls_Stretch.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/M_Highlight.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Settings_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Settings_2_slime_Choice.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Title-MainMenu_Caro.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WDG_Squash_Marker.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WDG_Stretch_Marker.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/green-expanded-pointer.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/green-pointer.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/pink-expanded-pointer.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/pink-pointer.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/Lab_Final.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Lab_Final.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Interactable/WDG_Stretch_Marker.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Interactable/WDG_Stretch_Marker.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/Controller_Controls_Remap_Squash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/Controller_Controls_Remap_Squash.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/Controller_Controls_Remap_Stretch.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/Controller_Controls_Remap_Stretch.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Maps/UI_Interactable_Test.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/UI_Interactable_Test.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Slime_Character_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Slime_Character_Base.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_AudioPlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_AudioPlayer.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Squash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Squash.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Stretch.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/BP_Stretch.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/Legacy/BP_GameInstance.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/Legacy/BP_SlimePlayerRework.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/Legacy/BP_SlimePlayerRework.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/Legacy/BP_SlimePlayerTwo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Characters/Legacy/BP_SlimePlayerTwo.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Misc/BP_DebugPlayers.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Blueprints/Misc/BP_DebugPlayers.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IMC_Slime.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IMC_Squash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IMC_Squash.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IMC_Stretch.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Slime_Prototype/Game/Input/IMC_Stretch.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +49,7 @@
     "C++ Project.Stretch_and_Squash.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Development",
+    "git-widget-placeholder": "FEATURE/UI/Interactables",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -163,6 +151,7 @@
       <workItem from="1714474837298" duration="2102000" />
       <workItem from="1715084918467" duration="3668000" />
       <workItem from="1715283197922" duration="1313000" />
+      <workItem from="1715601522549" duration="2375000" />
     </task>
     <servers />
   </component>
