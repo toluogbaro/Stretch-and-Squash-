@@ -57,6 +57,10 @@ void AWire::Tick(float DeltaTime)
 		{
 			ActivateRotation(DeltaTime);
 		}
+		else
+		{
+			DeactivateRotation(DeltaTime);
+		}
 		break;
 
 	case EActionType::LIFTOFF:
@@ -124,26 +128,65 @@ void AWire::DeactivateAction()
 
 void AWire::ActivateRotation(float _DeltaTime)
 {
-		float RotationSpeed = RotationRate * _DeltaTime;
+	if (BuildUpSpeed < RotationRate)
+	{
+		BuildUpSpeed += _DeltaTime * BuildUpSpeedMultiplier;
+		RotationSpeed = BuildUpSpeed * _DeltaTime;
 
-		switch (_RotationAxis)
-		{
-			case RotationAxis::X:
-				NewRotation = FRotator(RotationSpeed, 0, 0);
-				break;
+	}
+	else
+	{
+		RotationSpeed = RotationRate * _DeltaTime;
+	}
 
-			case RotationAxis::Y:
-				NewRotation = FRotator(0, RotationSpeed, 0);
-				break;
+	switch (_RotationAxis)
+	{
+	case RotationAxis::X:
+		NewRotation = FRotator(RotationSpeed, 0, 0);
+		break;
 
-			case RotationAxis::Z:
-				NewRotation = FRotator(0, 0, RotationSpeed);
-				break;
+	case RotationAxis::Y:
+		NewRotation = FRotator(0, RotationSpeed, 0);
+		break;
 
-		}
+	case RotationAxis::Z:
+		NewRotation = FRotator(0, 0, RotationSpeed);
+		break;
 
-		ActorToEffect->AddActorWorldRotation(NewRotation);
+	}
+
+	ActorToEffect->AddActorWorldRotation(NewRotation);
 	
+}
+
+void AWire::DeactivateRotation(float _DeltaTime)
+{
+	if (BuildUpSpeed > 0.0f)
+	{
+		BuildUpSpeed -= _DeltaTime * SlowDownSpeedMultiplier;
+		RotationSpeed = BuildUpSpeed * _DeltaTime;
+
+	}
+
+	switch (_RotationAxis)
+	{
+	case RotationAxis::X:
+		NewRotation = FRotator(RotationSpeed, 0, 0);
+		break;
+
+	case RotationAxis::Y:
+		NewRotation = FRotator(0, RotationSpeed, 0);
+		break;
+
+	case RotationAxis::Z:
+		NewRotation = FRotator(0, 0, RotationSpeed);
+		break;
+
+	}
+
+	ActorToEffect->AddActorWorldRotation(NewRotation);
+
+
 }
 
 void AWire::ActivateLiftOff(float _DeltaTime)

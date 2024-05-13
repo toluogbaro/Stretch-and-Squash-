@@ -67,7 +67,20 @@ public:
 
 	//How Fast You Want The Actor To Rotate
 	UPROPERTY(EditAnywhere, Category = "Wire", meta = (EditCondition = "ActionType == EActionType::CONSTANT_ROTATION", EditConditionHides))
-	float RotationRate;
+	float RotationRate = 1000.0f;
+
+	//How Fast You Want The Actor Speed To Build Up
+	UPROPERTY(EditAnywhere, Category = "Wire", meta = (EditCondition = "ActionType == EActionType::CONSTANT_ROTATION", EditConditionHides))
+	float BuildUpSpeedMultiplier = 120.0f;
+
+	UPROPERTY(EditAnywhere, Category = "Wire", meta = (EditCondition = "ActionType == EActionType::CONSTANT_ROTATION", EditConditionHides))
+	float SlowDownSpeedMultiplier = 300.0f;
+
+	UPROPERTY()
+	float BuildUpSpeed = 0.0f;
+
+	UPROPERTY()
+	float RotationSpeed = 0.0f;
 
 	UPROPERTY()
 	FRotator NewRotation;
@@ -77,6 +90,10 @@ public:
 
 	UFUNCTION()
 	void ActivateRotation(float _DeltaTime);
+
+
+	UFUNCTION()
+	void DeactivateRotation(float _DeltaTime);
 
 #pragma endregion
 
