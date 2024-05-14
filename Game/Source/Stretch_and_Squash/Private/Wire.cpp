@@ -132,6 +132,7 @@ void AWire::ActivateRotation(float _DeltaTime)
 	{
 		BuildUpSpeed += _DeltaTime * BuildUpSpeedMultiplier;
 		RotationSpeed = BuildUpSpeed * _DeltaTime;
+		MappedRotationSpeed = BuildUpSpeed / RotationRate;		
 
 	}
 	else
@@ -165,6 +166,7 @@ void AWire::DeactivateRotation(float _DeltaTime)
 	{
 		BuildUpSpeed -= _DeltaTime * SlowDownSpeedMultiplier;
 		RotationSpeed = BuildUpSpeed * _DeltaTime;
+		MappedRotationSpeed = BuildUpSpeed / RotationRate;
 
 	}
 

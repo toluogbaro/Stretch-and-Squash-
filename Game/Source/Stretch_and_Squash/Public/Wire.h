@@ -82,10 +82,13 @@ public:
 	UPROPERTY()
 	float RotationSpeed = 0.0f;
 
+	UPROPERTY(BlueprintReadOnly)
+	float MappedRotationSpeed = 0.0f;
+
 	UPROPERTY()
 	FRotator NewRotation;
 
-	UPROPERTY()
+	UPROPERTY(BlueprintReadOnly)
 	bool bShouldActivateRotation;
 
 	UFUNCTION()
