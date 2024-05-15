@@ -21,6 +21,10 @@ public:
 	UPROPERTY(EditAnywhere)
 	UCableComponent* Cable;
 
+	UPROPERTY(EditAnywhere)
+	float CableSize = 0.0f;
+
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
