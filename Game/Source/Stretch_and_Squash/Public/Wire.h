@@ -46,10 +46,10 @@ public:
 	EActionType ActionType = EActionType::NONE;
 
 	UFUNCTION(BlueprintCallable, Category = "Wire")
-	void ActivateAction(EActionType CurrentActionType);
+	void ActivateAction(EActionType CurrentActionType, float BuildFanSpeed);
 
 	UFUNCTION(BlueprintCallable, Category = "Wire")
-	void DeactivateAction();
+	void DeactivateAction(float SlowFanSpeed);
 
 	UPROPERTY(EditAnywhere)
 	AActor* ActorToEffect;
@@ -82,13 +82,13 @@ public:
 	UPROPERTY()
 	float RotationSpeed = 0.0f;
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY()
 	float MappedRotationSpeed = 0.0f;
 
 	UPROPERTY()
 	FRotator NewRotation;
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY()
 	bool bShouldActivateRotation;
 
 	UFUNCTION()

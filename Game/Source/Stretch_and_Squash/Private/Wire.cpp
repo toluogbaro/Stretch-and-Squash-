@@ -79,7 +79,7 @@ void AWire::Tick(float DeltaTime)
 }
 
 
-void AWire::ActivateAction(EActionType CurrentActionType)
+void AWire::ActivateAction(EActionType CurrentActionType, float BuildFanSpeed)
 {
 	if (IsValid(ActorToEffect))
 	{
@@ -93,18 +93,21 @@ void AWire::ActivateAction(EActionType CurrentActionType)
 
 		case EActionType::CONSTANT_ROTATION:
 			bShouldActivateRotation = true;
+			BuildFanSpeed = MappedRotationSpeed;
 			break;
 
 		case EActionType::LIFTOFF:
 			bShouldLiftOff = true;
 			break;
 		}
+
+		
 	}
 	
 
 }
 
-void AWire::DeactivateAction()
+void AWire::DeactivateAction(float SlowFanSpeed)
 {
 	if (IsValid(ActorToEffect))
 	{
@@ -116,6 +119,7 @@ void AWire::DeactivateAction()
 
 		case EActionType::CONSTANT_ROTATION:
 			bShouldActivateRotation = false;
+			SlowFanSpeed = MappedRotationSpeed;
 			break;
 
 		case EActionType::LIFTOFF:
