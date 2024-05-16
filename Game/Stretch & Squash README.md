@@ -12,11 +12,11 @@ This project was produced using Unreal Engine (**Version 5.1**).
 If you wish to get the full game experience please visit our itch.io page here: https://tolu-ogbaro.itch.io/stretch-and-squash
 
 Alternatively you can compile the project files and run in editor by:
-- Right clicking the **.proj** file you can then 'Generate visual studio files'.
+- Right clicking the **.uproject** file you can then 'Generate visual studio files'.
 - After the files are generated. Open the visual studio **.sln** file and build via the 'Windows Local Debigger'
 - After the project has fully built on your local machine you can then press play and start playing on any map of your choosing. 
 
-<sub>(**PLEASE NOTE**: once you have compiled the project from visual studio files you will be able to build to the project directly by running the .proj file)</sub>
+<sub>(**PLEASE NOTE**: once you have compiled the project from visual studio files you will be able to build to the project directly by running the .uproject file)</sub>
 
 # Control Scheme
 
