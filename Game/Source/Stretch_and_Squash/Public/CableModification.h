@@ -21,8 +21,6 @@ public:
 	UPROPERTY(EditAnywhere)
 	UCableComponent* Cable;
 
-	UPROPERTY(EditAnywhere)
-	float CableSize = 0.0f;
 
 
 protected:

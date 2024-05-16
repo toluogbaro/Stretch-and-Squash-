@@ -8,6 +8,7 @@ AWire::AWire()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	MappedRotationSpeed = 0.0f;
 
 }
 
@@ -79,7 +80,7 @@ void AWire::Tick(float DeltaTime)
 }
 
 
-void AWire::ActivateAction(EActionType CurrentActionType, float BuildFanSpeed)
+void AWire::ActivateAction(EActionType CurrentActionType)
 {
 	if (IsValid(ActorToEffect))
 	{
@@ -93,7 +94,7 @@ void AWire::ActivateAction(EActionType CurrentActionType, float BuildFanSpeed)
 
 		case EActionType::CONSTANT_ROTATION:
 			bShouldActivateRotation = true;
-			BuildFanSpeed = MappedRotationSpeed;
+			
 			break;
 
 		case EActionType::LIFTOFF:
@@ -107,7 +108,7 @@ void AWire::ActivateAction(EActionType CurrentActionType, float BuildFanSpeed)
 
 }
 
-void AWire::DeactivateAction(float SlowFanSpeed)
+void AWire::DeactivateAction()
 {
 	if (IsValid(ActorToEffect))
 	{
@@ -119,7 +120,7 @@ void AWire::DeactivateAction(float SlowFanSpeed)
 
 		case EActionType::CONSTANT_ROTATION:
 			bShouldActivateRotation = false;
-			SlowFanSpeed = MappedRotationSpeed;
+			
 			break;
 
 		case EActionType::LIFTOFF:
@@ -129,6 +130,7 @@ void AWire::DeactivateAction(float SlowFanSpeed)
 	}
 	
 }
+
 
 void AWire::ActivateRotation(float _DeltaTime)
 {

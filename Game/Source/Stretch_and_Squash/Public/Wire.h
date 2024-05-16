@@ -46,10 +46,10 @@ public:
 	EActionType ActionType = EActionType::NONE;
 
 	UFUNCTION(BlueprintCallable, Category = "Wire")
-	void ActivateAction(EActionType CurrentActionType, float BuildFanSpeed);
+	void ActivateAction(EActionType CurrentActionType);
 
 	UFUNCTION(BlueprintCallable, Category = "Wire")
-	void DeactivateAction(float SlowFanSpeed);
+	void DeactivateAction();
 
 	UPROPERTY(EditAnywhere)
 	AActor* ActorToEffect;

@@ -26,7 +26,7 @@ void UCableModification::BeginPlay()
 		Cable = AttachedActor->FindComponentByClass<UCableComponent>();
 	}
 
-	if(IsValid(Cable)) Cable->CableWidth = CableSize;
+	if (IsValid(Cable)) Cable->CableWidth = 120;
 	
 }
 
