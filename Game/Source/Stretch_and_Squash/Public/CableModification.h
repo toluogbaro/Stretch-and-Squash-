@@ -21,6 +21,9 @@ public:
 	UPROPERTY(EditAnywhere)
 	UCableComponent* Cable;
 
+	UFUNCTION(BlueprintCallable)
+	void StretchCable(float CableSizeMdodifier);
+
 
 
 protected:

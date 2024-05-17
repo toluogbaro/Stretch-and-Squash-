@@ -15,6 +15,8 @@ UCableModification::UCableModification()
 }
 
 
+
+
 // Called when the game starts
 void UCableModification::BeginPlay()
 {
@@ -26,7 +28,7 @@ void UCableModification::BeginPlay()
 		Cable = AttachedActor->FindComponentByClass<UCableComponent>();
 	}
 
-	if (IsValid(Cable)) Cable->CableWidth = 120;
+	if (IsValid(Cable)) Cable->CableWidth = 117;
 	
 }
 
@@ -37,5 +39,10 @@ void UCableModification::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+}
+
+void UCableModification::StretchCable(float CableSizeMdodifier)
+{
+
 }
 
