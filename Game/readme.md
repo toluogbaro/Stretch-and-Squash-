@@ -1,25 +1,35 @@
 # Introduction
+Welcome to the **Stretch & Squash** github page.
 
-This is the **ROOT** folder for the unreal game project.
+Enter a new age of science in this co-op platformer adventure playing as Stretch and Squash, slime brought to life due to the meddling of the Royal Plasma Institution
 
-_NOTE - Unreal has blur enabled by default, disable this in project settings if you don't want blur._
+Using their slimy attributes, the players must slip their way through challenging environmental puzzles by harnessing skills unique to one another and paying attention to their own limitations. Form the ultimate synergy to make the discovery of the century.
 
+This project was produced using Unreal Engine (**Version 5.1**).
 
+# How to play?
 
-# Adding UE5 Game Project
+If you wish to get the full game experience please visit our itch.io page here: https://tolu-ogbaro.itch.io/stretch-and-squash
 
-1. Open unreal, select a template, and create the project template anywhere.
-2. Open the **ROOT** folder of the UE5 project you just created and copy `yourgame.uproject`, `Content`, `Config`, and `Source` into this folder.
-3. If your `yourgame.uproject` file and `Content`, `Config`, `Source` folders are in the same directory as the repositories `.gitignore` file, then your setup is correct.
+Alternatively you can compile the project files and run in editor by:
+- Right clicking the **.uproject** file you can then 'Generate visual studio files'.
+- After the files are generated. Open the visual studio **.sln** file and build via the 'Windows Local Debigger'
+- After the project has fully built on your local machine you can then press play and start playing on any map of your choosing. 
 
-Once you've completed the above steps you're ready to open the project and start working.
+<sub>(**PLEASE NOTE**: once you have compiled the project from visual studio files you will be able to build to the project directly by running the .uproject file)</sub>
 
+# Control Scheme
 
+The game has been setup currently to work best with 2 xbox controllers (Any brand of controller/gamepad should work) The control scheme will be demonstarted during the tutorial of the game.
+ 
+# Asset Credits
 
-# Opening The Project: For Programmers
+    PromptFont by Yukari "Shinmera" Hafner, available at https://shinmera.com/promptfont
 
-If you're a programmer and plan on doing work in C++ you should right click the `yourgame.uproject` file and select the `Generate Visual Studio project files` option. When this is complete double click the `yourgame.sln` file and run the game from Visual Studio by clicking `Local Windows Debugger`. Whenever you code in C++ you should close UE5 and recompile it from VS.
+    Giant Isopod under CC License - https://sketchfab.com/RISDNaturelab
 
-If you are not doing anything in C++, then you can open the project straight from double clicking `yourgame.uproject`. Make sure you click yes on the prompt asking to compile. UE5 will take awhile to open because it's compiling C++ binaries in the background.
+    Sppon bill skull under CC License - https://sketchfab.com/RISDNaturelab
 
-If UE5 is bing weird delete all the cache files/folders & generated files/folders, then lauch it from Visual Studio so it's forced to compile everything correctly and you will catch any compile-time bugs if anything is wrong.
+    Snake Skeleton under CC License - https://sketchfab.com/RISDNaturelab
+
+    Unreal Slime Shader Plugin by Alex Christo - https://github.com/kingkristo/Unreal-Slime
